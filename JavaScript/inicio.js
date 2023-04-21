@@ -62,3 +62,66 @@ console.log(mensaje);
 if(true){
     let variableDentrodelIf = 2;
 }
+
+//operadores aritméticos
+let a = 5;
+let b = 2;
+
+console.log(a + b); //imrime 7
+console.log(a - b); //imprime 3
+console.log(a * b); //imprime 10
+console.log(a / b); //imprime 2.5
+console.log(a % b); //imprime 1
+
+
+//operadores de asignacion
+let a = 5;
+a = 10; //a = a + 10;
+console.log(a); //imprime 15
+
+let b = 10;
+b /=2; //b = b /2;
+console.log(b); // imprime 5
+
+//operadores de incremento y decremento
+
+let a = 5;
+console.log(++a); //imprime 6
+console.log(a); //imprime 6
+
+let b = 10;
+console.log(b--) //imprime 10
+console.log(b); //imprime 9
+
+
+//operadores de comparacion
+
+// == : igual a
+// ===estrictamente igual a mismo valor y tipo de dato
+//!= : diferente a
+// > : Mayor que
+// < : menor que
+// <= : menor o igual que
+
+//ejemplo de uso
+let a = 5;
+let b = 10;
+
+console.log(a == b); // Imprime false
+console.log(a != b); // Imprime true
+console.log(a < b); //imprime true
+console.log(a >=b); //imprime false
+
+//operadores logicos
+//&&: and
+//||: or
+// ! : not
+
+//ejemplos de uso
+let a = true;
+let b = false;
+console.log(a && b); //imprime false;
+console.log(a || b); //imprime true;
+console.log(!a); //imprime false;
+
+
