@@ -31,6 +31,6 @@ console.log(persona.edad);
 persona.pais = 'Argentina';
 console.log(persona.pais);
 
-
+console.log(persona);
 
 
