@@ -1,13 +1,13 @@
 // clases
 
 //objeto literal
-const persona1 = {
-    nombre: 'Lean', //propiedades
-    apellido: 'Garcia', //propiedades
-    edad: 21, //propiedades
-}
+// const persona1 = {
+//     nombre: 'Lean', //propiedades
+//     apellido: 'Bertero', //propiedades
+//     edad: 21, //propiedades
+// }
 
-
+//-------------------- (CLASE PERSONA) -------------------//
 
 class Persona{ //clase persona
     nombre;
@@ -15,24 +15,25 @@ class Persona{ //clase persona
     edad = 19;
 
     //constructor : es una funcion que se ejecuta siempre con las clases
-    constructor(nombreInicial) {
+    constructor(nombreInicial, apellidoInicial) {
+        // console.log('Este es el contenido de this' , this);
         this.nombre = (nombreInicial);
+        this.apellido = (apellidoInicial);
+        
         //this = hace referencia a un objeto
     }
 
-    //Nota al margen: El constructor se ejecuta tres veces por el hecho de que hay 3 objetos llamados persona
-
 }
+//-------------------- (CLASE PERSONA) -------------------//
 
 //creando el objeto persona 
 //se inicializa el objeto persona
-const persona2 = new Persona("Gaston"); //persona 1 = argumentos
-const persona3 = new Persona("pepe"); //persona 2 = argumentos
-const persona4 = new Persona("Josefina"); //persona 3 = argumentos
+                            
+                            //NOMBRE  //APELLIDO  = SE SOBRE ESCRIBE EL APELLIDO    
+const persona = new Persona("Leandro", "Perez"); //persona 1 = argumentos
 
 
-//muestra lo que ejecuta la consola en pantalla
-console.log(persona2);
-console.log(persona3);
-console.log(persona4);
+// //muestra lo que ejecuta la consola en pantalla
+console.log(persona);
+
 
