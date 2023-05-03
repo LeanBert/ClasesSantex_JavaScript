@@ -11,7 +11,7 @@ class Persona{
     }
 
     presentarse(){
-        console.log('Hola, mi nombre es ' , this.nombre, '' , this.apellido);
+        console.log('Hola, mi nombre es ' , this.nombre, ' ' , this.apellido);
     }
 }
 
