@@ -36,3 +36,10 @@ const suma2 = function(n1, n2){
 
 console.log(suma(4,5));
 
+
+/*Funciones (ejemplos repaso de clase 2)*/
+
+function(saludo){
+    console.log('Hola')
+};
+

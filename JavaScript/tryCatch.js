@@ -1,22 +1,19 @@
 function division(a,b){
 
-    if(b === 0){
-
-        throw 'no se puede dividir por cero';
-
+    if (b === 0){
+        throw "No se puede dividir por cero";
     }
 
     return a / b;
 }
 
-console.log('Inicio del programa');
+console.log("Inicio del programa");
 
-try{
+try {
     const result = division(4,0);
     console.log(result);
-}
-catch(error) {
-    console.error('Ocurrio un error, intente mas tarde');
+} catch (err) {
+    console.error("Ocurrio un error, intente mas tarde");
 }
 
-console.log('Fin del programa');
+console.log("Fin del programa");
