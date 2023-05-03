@@ -1,5 +1,5 @@
 
-//Herencia = la Herencia es alguna caracteristica que puede tomar un objeto de otro objeto 
+//Herencia = Es el mecanismo por el cual una clase permite heredar las características (atributos y métodos) de otra clase.     
 
 class Persona{
     nombre;
