@@ -15,3 +15,11 @@ const listadeAlumnos = [
 ];
 
 console.log(listadeAlumnos[2]); 
+
+
+/*Otra forma de ver arreglos*/
+const numeros = (44,55,57,38,21); /*Lenght: 5*/
+
+for(let i = 0; i < numeros.lenght; i++){
+    console.log(numeros[i]);
+}
